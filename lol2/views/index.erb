@@ -1,0 +1,31 @@
+<html>
+
+<head></head>
+
+<body>
+
+
+  <ul>
+    <% @people.each do |person| %>
+      <li>
+        <%= person.name %>
+      </li>
+      <li>
+        <%= person.summoner_id %>
+      </li>
+      <li>
+        <%= person.level %>
+      </li>
+      <% end %>
+  </ul>
+        
+<p>Enter a summoner name</p>
+  
+<form action="/posts" method="get">
+  <input type="text" name="summoner"/>
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+
+</html>

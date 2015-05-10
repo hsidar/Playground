@@ -3,10 +3,11 @@
 source 'https://rubygems.org'
 ruby "2.2.1"
 
-gem 'sinatra'
-gem 'activerecord'
-gem 'sinatra-activerecord'
-gem 'rake'
+gem "sinatra"
+gem "activerecord"
+gem "sinatra-activerecord"
+gem 'sinatra-flash'
+gem 'sinatra-redirect-with-flash'
 gem 'httparty'
 
 group :development do
