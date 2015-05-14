@@ -23,14 +23,14 @@ $(document).ready ->
       $(this).css('background-image', 'image-url("background-red.jpg")').animate opacity: 0
       return
     return
-  $('#hamburger').click ->
-    $('#menu').fadeTo 'fast', 0.2
-    $('#menu').css 'z-index', 5
-    $('#options').fadeTo 'slow', 1
-    return
-  $('#menu').mouseleave ->
-    $('#menu').fadeTo 'slow', 0
-    $('#menu').css 'z-index', 0
-    $('#options').fadeTo 'fast', 0
-    return
+#  $('#hamburger').click ->
+#    $('#menu').fadeTo 'fast', 0.2
+#    $('#menu').css 'z-index', 5
+#    $('#options').fadeTo 'slow', 1
+#    return
+#  $('#menu').mouseleave ->
+#    $('#menu').fadeTo 'slow', 0
+#    $('#menu').css 'z-index', 0
+#    $('#options').fadeTo 'fast', 0
+#    return
 return

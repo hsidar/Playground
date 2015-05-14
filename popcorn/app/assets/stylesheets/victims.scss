@@ -74,25 +74,17 @@ button {
     z-index: 2;
 }
 #options {
-    position: absolute;
+    position: fixed;
+    width: 100%;
     font-family: Papyrus;
+    background-color: black;
     color: white;
-    top: 88%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    opacity: 0;
     list-style-type: none;
-    text-align: center;
     font-size: 3vw;
+    bottom: 0;
 }
 #options li {
     display: inline;
     margin-top: 10%;
-}
-#options li p {
-    display: inline;
-    padding: 0em 2em;
+    padding:  2em;
 }

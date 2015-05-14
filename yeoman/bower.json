@@ -1,0 +1,9 @@
+{
+  "name": "yeoman",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
+  }
+}
