@@ -4,27 +4,22 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.wrapper {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .wrapper::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .wrapper .primary {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .wrapper .primary:last-child {
-      margin-right: 0; }
-    .wrapper .primary .secondary {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 12.64237%; }
-      .wrapper .primary .secondary:last-child {
-        margin-right: 0; }
+body {
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.innie {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  margin-right: 10px;
+  margin-left: 10px; }
+  .innie:last-child {
+    margin-right: 0; }
+
+h1 {
+  text-align: center; }
 
 /*# sourceMappingURL=test.css.map */

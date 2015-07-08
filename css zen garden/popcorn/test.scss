@@ -1,12 +1,21 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
   
-.wrapper {
-@include outer-container;
-.primary { @include span-columns(6); 
-  .secondary {
-    @include span-columns(1 of 6);
-  }
+body {
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
+
+  .innie { 
+    @include span-columns(5);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
+h1 {
+  text-align: center;
 }
