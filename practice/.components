@@ -1,0 +1,9 @@
+---
+:orm: sequel
+:test: cucumber
+:mock: mocha
+:script: jquery
+:renderer: erb
+:stylesheet: sass
+:namespace: Practice
+:migration_format: number

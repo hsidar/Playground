@@ -1,0 +1,96 @@
+.poop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-repeat: none;
+  z-index: -1;
+}
+
+.poop:nth-child(2) {
+  background-image: url(images/1.jpg);
+}
+
+.poop:nth-child(3) {
+  background-image: url(images/2.jpg);
+}
+
+.poop:nth-child(4) {
+  background-image: url(images/3.jpg);
+}
+
+.poop:nth-child(5) {
+  background-image: url(images/4.jpg);
+}
+
+.poop:nth-child(6) {
+  background-image: url(images/5.jpg);
+}
+
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+  background: black;
+  color: white;
+}
+
+.showcase {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.showcase-headline {
+  list-style-type: none;
+  text-align: center;
+  font-size: 6em;
+  margin:0;
+  padding: 0;
+}
+
+.showcase-link {
+  color: white;
+  text-decoration: none;
+}
+
+.showcase-werds {
+  margin-top: 1%;
+}
+
+.showcase-text-links {
+  margin-top: 1%;
+}
+
+.showcase-icon {
+  margin-top: 1%;
+}
+
+/* responsive stuff */
+
+@media screen and (min-width: 785px) {
+
+  .showcase-headline li {
+    display: inline-block;
+  }
+
+  .showcase-headline {
+    margin-top: 7%;
+  }
+
+  .showcase-werds {
+    margin-top: 3%;
+  }
+
+  .showcase-text-links {
+    margin-top: 3%;
+  }
+
+  .showcase-icon {
+    margin-top: 3%;
+  }
+
+}
